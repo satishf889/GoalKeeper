@@ -33,7 +33,7 @@ export default function App() {
 
   return (
     <View style={styles.screen}>
-      <Button title="Add new gaol" onPress={() => setIsAddMode(true)} />
+      <Button title="Add new goal" onPress={() => setIsAddMode(true)} />
       <GoalInput
         visible={isAddMode}
         goalInputHandler={goalInputHandler}
